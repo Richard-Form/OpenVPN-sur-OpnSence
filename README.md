@@ -33,7 +33,7 @@ Ce guide explique comment configurer un serveur VPN OpenVPN de manière basique 
 2. Si vous utilisez des adresses IP privées (par exemple dans une VM), désactivez l'option suivante :
    - Bloquer les Réseaux Privés RFC1918
 3. Exemple de configuration :  
-   ![Configuration WAN](img/img1.jpg)
+   ![Configuration WAN](img/img1.png)
 
 ---
 
@@ -41,12 +41,12 @@ Ce guide explique comment configurer un serveur VPN OpenVPN de manière basique 
 
 1. Accédez à **Système > Gestion des Certificats > Autorité**.
 2. Cliquez sur l'icône "+" pour ajouter une nouvelle autorité de certification.  
-   ![Création de l'autorité](img/img2.jpg)
+   ![Création de l'autorité](img/img2.png)
 
 3. Renseignez les informations nécessaires, comme suit :
    - Utilisez un nom descriptif pour identifier clairement l'autorité.
    - Préférez un certificat RSA2048 (RSA4096 peut poser des problèmes dans certains cas).  
-   ![Configuration de l'autorité](img/img3.jpg)
+   ![Configuration de l'autorité](img/img3.png)
 
 ---
 
@@ -54,7 +54,7 @@ Ce guide explique comment configurer un serveur VPN OpenVPN de manière basique 
 
 1. Allez dans **Système > Gestion des Certificats > Certificats**.
 2. Cliquez sur l'icône "+" pour ajouter un certificat serveur.  
-   ![Création du certificat serveur](img/img4.jpg)
+   ![Création du certificat serveur](img/img4.png)
 
 
 ---
@@ -63,7 +63,7 @@ Ce guide explique comment configurer un serveur VPN OpenVPN de manière basique 
 
 1. Allez dans **VPN > OpenVPN > Servers [legacy]**.
 2. Cliquez sur l'icône "+" pour configurer un nouveau serveur VPN.  
-   ![Configuration du serveur VPN](img/img5.jpg)
+   ![Configuration du serveur VPN](img/img5.png)
 
 Note importante : 
  - Certains paramètres de compression peuvent empêcher les clients de se connecter. Testez ces paramètres avant de finaliser.
@@ -74,10 +74,10 @@ Note importante :
 
 1. Accédez à **Système > Accès > Utilisateurs**.
 2. Cliquez sur l'icône "+" pour créer un nouvel utilisateur.  
-   ![Ajout utilisateur](img/img7.jpg)
+   ![Ajout utilisateur](img/img7.png)
 
 3. Cochez l'option "Créer un certificat utilisateur" pour générer un certificat lors de la création de l'utilisateur.  
-   ![Création certificat utilisateur](img/img9.jpg)
+   ![Création certificat utilisateur](img/img9.png)
 
 ---
 
@@ -85,16 +85,16 @@ Note importante :
 
 1. Configurez les règles pour autoriser le trafic VPN :
    - Accédez à **Pare-feu > Règles > WAN** et ajoutez les règles nécessaires.  
-     ![Pare-feu WAN](img/img10.jpg)
+     ![Pare-feu WAN](img/img10.png)
    - Faites de même dans **Pare-feu > Règles > OpenVPN** pour permettre le trafic VPN.  
-     ![Pare-feu OpenVPN](img/img12.jpg)
+     ![Pare-feu OpenVPN](img/img12.png)
 
 ---
 
 ## 8. Configuration du client VPN
 
 1. Allez dans **VPN > OpenVPN > Exporter le client**.  
-   ![Exporter client VPN](img/img13.jpg)
+   ![Exporter client VPN](img/img13.png)
 
 2. Téléchargez et installez la dernière version d’un client OpenVPN, tel que :
    - OpenVPN GUI : https://openvpn.net/community-downloads/
@@ -104,7 +104,7 @@ Note importante :
    - Chemin par défaut sous Windows : `C:\Program Files\OpenVPN\config`
 
 4. Lancez le client VPN, saisissez vos identifiants, et vérifiez que la connexion fonctionne correctement.  
-   ![Connexion réussie](img/img15.jpg)
+   ![Connexion réussie](img/img15.png)
 
 ---
 
