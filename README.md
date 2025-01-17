@@ -56,7 +56,7 @@ Ce guide explique comment configurer un serveur VPN OpenVPN de manière basique 
 2. Cliquez sur l'icône "+" pour ajouter un certificat serveur.  
    ![Création du certificat serveur](img/img4.jpg)
 
-Pour plus de sécurité : Accès à distance (SSL/TLS + authentification utilisateur)
+
 ---
 
 ## 5. Configuration du serveur VPN
@@ -65,8 +65,9 @@ Pour plus de sécurité : Accès à distance (SSL/TLS + authentification utilisa
 2. Cliquez sur l'icône "+" pour configurer un nouveau serveur VPN.  
    ![Configuration du serveur VPN](img/img5.jpg)
 
-**Note importante :** Certains paramètres de compression peuvent empêcher les clients de se connecter. Testez ces paramètres avant de finaliser.
-
+Note importante : 
+ - Certains paramètres de compression peuvent empêcher les clients de se connecter. Testez ces paramètres avant de finaliser.
+ - Pour plus de sécurité : Accès à distance (SSL/TLS + authentification utilisateur)
 ---
 
 ## 6. Ajout d'utilisateurs
