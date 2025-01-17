@@ -95,7 +95,7 @@ Ce guide explique comment configurer un serveur VPN OpenVPN de manière basique 
    ![Exporter client VPN](img/img13.jpg)
 
 2. Téléchargez et installez la dernière version d’un client OpenVPN, tel que :
-   - OpenVPN GUI
+   - OpenVPN GUI : https://openvpn.net/community-downloads/
    - OpenVPN Connect
 
 3. Importez le fichier `.ovpn` dans le répertoire de configuration du client OpenVPN :
