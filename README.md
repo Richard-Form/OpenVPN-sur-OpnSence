@@ -82,8 +82,9 @@ Note importante :
 
    ![Création certificat utilisateur](img/img9.png)
 
-   Dans le cas de la version 25.1 il faut creer l'utilisateur et ensuite aller dans l'onglet "Système: Gestion des Certificats: Certificats" pour creer le certificat associé à l'utilisateur.
-   Attention le nom du certificat doit correspondre à celui de l'utilisateur concerné sinon l'authentification ne fonctionnera pas.
+Dans le cas de la version 25.1, il faut créer l'utilisateur, puis aller dans l'onglet "Système : Gestion des Certificats : Certificats" pour créer le certificat associé à l'utilisateur. Attention, le nom du certificat doit correspondre exactement à celui de l'utilisateur concerné, sinon l'authentification ne fonctionnera pas.
+User: User-Vpn
+Certificat: User-Vpn
 
    ![Création certificat utilisateur](img/img17.png)
    
