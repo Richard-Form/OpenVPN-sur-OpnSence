@@ -85,7 +85,7 @@ Note importante :
    Dans le cas de la version 25.1 il faut creer l'utilisateur et ensuite aller dans l'onglet "Système: Gestion des Certificats: Certificats" pour creer le certificat associé à l'utilisateur.
    Attention le nom du certificat doit correspondre à celui de l'utilisateur concerné sinon l'authentification ne fonctionnera pas.
 
-   ![Création certificat utilisateur](img/img16.png)
+   ![Création certificat utilisateur](img/img17.png)
    
 ---
 
@@ -113,6 +113,8 @@ Note importante :
 
 4. Lancez le client VPN, saisissez vos identifiants, et vérifiez que la connexion fonctionne correctement.  
    ![Connexion réussie](img/img15.png)
+
+      ![Connexion réussie](img/img16.png)
 
 ---
 
