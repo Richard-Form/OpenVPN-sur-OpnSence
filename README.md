@@ -77,9 +77,16 @@ Note importante :
 2. Cliquez sur l'icône "+" pour créer un nouvel utilisateur.  
    ![Ajout utilisateur](img/img7.png)
 
-3. Cochez l'option "Créer un certificat utilisateur" pour générer un certificat lors de la création de l'utilisateur.  
+3. Cochez l'option "Créer un certificat utilisateur" pour générer un certificat lors de la création de l'utilisateur.
+   Ceci est valable pour les version avant la 25.1.
+
    ![Création certificat utilisateur](img/img9.png)
 
+   dans le cas de la version 25.1 il faut creer l'utilisateur et ensite aller dans l'onglet "Système: Gestion des Certificats: Certificats" pour creer le certificat associé à l'utilisateur.
+   Attention le nom du certificat doit correspondre à celui de l'utilisateur concerné sinon l'authentification ne fonctionnera pas.
+
+   ![Création certificat utilisateur](img/img16.png)
+   
 ---
 
 ## 7. Configuration du pare-feu
