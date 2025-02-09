@@ -86,7 +86,7 @@ Dans le cas de la version 25.1, il faut créer l'utilisateur, puis aller dans l'
 User: User-Vpn
 Certificat: User-Vpn
 
-   ![Création certificat utilisateur](img/img17.png)
+
    
 ---
 
