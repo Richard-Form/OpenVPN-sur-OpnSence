@@ -64,7 +64,8 @@ Ce guide explique comment configurer un serveur VPN OpenVPN de manière basique 
 1. Allez dans **VPN > OpenVPN > Servers [legacy]**.
 2. Cliquez sur l'icône "+" pour configurer un nouveau serveur VPN.  
    ![Configuration du serveur VPN](img/img5.png)
-
+   ![Configuration du serveur VPN](img/img6.png)
+   
 Note importante : 
  - Certains paramètres de compression peuvent empêcher les clients de se connecter. Testez ces paramètres avant de finaliser.
  - Pour plus de sécurité : Accès à distance (SSL/TLS + authentification utilisateur)
